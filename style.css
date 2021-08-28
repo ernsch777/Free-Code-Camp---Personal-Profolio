@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato, Tahoma, sans-serif;
+}
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* Navbar Section************************ */
+#navbar {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    gap: 35px;
+    height: 4rem;
+    font-size: 1.8em;
+    font-weight: 700;
+    padding-right: 30px;
+}
+#navbar a {
+    text-decoration: none;
+    color: black;
+}
+#navbar a:hover {
+    border-bottom: 3px black solid;
+}
+
+/* Welcome Section************************ */
+#welcome {
+    height: 100vh;
+    color: whitesmoke;
+    display: grid;
+    place-items: center;
+    font-size: 2rem;
+    font-weight: 900;
+    padding-bottom: 10px;
+    background-color: black;
+    text-align: center;
+}
+#welcome h3 {
+    font-style: italic;
+    padding-top: 15px;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+/* Projects Section************************ */
+#projectList {
+    display: flex;
+}
+#projects a {
+    text-decoration: none;
+    color: black;
+}
+#projects a:hover {
+    border-bottom: 3px black solid;
+}
+
+.projectCard {
+    height: 25rem;
+    width: 25rem;
+    border: 2px solid red;
+}
